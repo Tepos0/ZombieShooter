@@ -654,6 +654,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6356807853329216683, guid: cde62f6496e58f64e8c44e7e18d20243, type: 3}
+      propertyPath: _isRotating
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356807853329216683, guid: cde62f6496e58f64e8c44e7e18d20243, type: 3}
+      propertyPath: _rotateSpeed
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -673,6 +681,10 @@ PrefabInstance:
     - target: {fileID: 3661593435302723960, guid: fb268203853b7e5498ef523fb13a9470, type: 3}
       propertyPath: m_Name
       value: Gun3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207553238133137162, guid: fb268203853b7e5498ef523fb13a9470, type: 3}
+      propertyPath: _isRotating
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5944087251853995579, guid: fb268203853b7e5498ef523fb13a9470, type: 3}
       propertyPath: m_LocalPosition.x
@@ -774,6 +786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gun2
       objectReference: {fileID: 0}
+    - target: {fileID: 7088766974267498103, guid: 45c68e8e0b423dc47a51a22c6dbf1365, type: 3}
+      propertyPath: _isRotating
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -790,6 +806,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3183949831383193384, guid: b911f3a26fed4534d82b6ec3244c5ac5, type: 3}
+      propertyPath: _isRotating
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3399633202296801782, guid: b911f3a26fed4534d82b6ec3244c5ac5, type: 3}
       propertyPath: m_Name
       value: Gun4
