@@ -28,5 +28,6 @@ private void GrabWeapond (Transform weapon)
     weapon.localPosition = Vector3.zero;
     weapon.localRotation = Quaternion.identity;
     _weapon = weapon.GetComponent<Gun>();
+    _weapon.PickUpWeapon();
 }
 }
