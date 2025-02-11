@@ -28,7 +28,7 @@ public class Gun : MonoBehaviour
      {
         _getWeapon.RemoveWeapon ();
         _getWeapon = null;
-        gameObject.GetComponent<UIcontroller
+       
      }
     public void Shoot()
     {
@@ -40,6 +40,7 @@ public class Gun : MonoBehaviour
             }
             return;
         }
+        SoundManager.instance.Play("Sound1");
         _weaponAnimator.Play("shoot", -1, 0f);
         GameObject.Instantiate(_bullet, _bulletPivot.position, _bulletPivot.rotation);
         _currentBulletsNumber --; 
