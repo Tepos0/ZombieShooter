@@ -22,7 +22,10 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             health.TakeDamage(1);
+            Destroy(collision.gameObject);
+            SoundManager.instance.Play("Daño");
         }
+
     }
 
     public void Die() 

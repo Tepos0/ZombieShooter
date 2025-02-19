@@ -31,11 +31,13 @@ private void GrabWeapond (Transform weapon)
     weapon.localRotation = Quaternion.identity;
     _weapon = weapon.GetComponent<Gun>();
     _weapon.PickUpWeapon(this);
+    _uiController.ShowABulletsUI(true);
 }
 public void RemoveWeapon() 
 {
     Destroy(_weapon.gameObject);
     _weapon = null;
+    _uiController.ShowABulletsUI(false);
 }
 
 

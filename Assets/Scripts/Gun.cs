@@ -73,8 +73,9 @@ public class Gun : MonoBehaviour
         }
         _totalBulletsNumber -= _currentBulletsNumber;
         UpdateBulletsText();
-
+        SoundManager.instance.Play("Reload");
         _weaponAnimator.Play("Reload");
+        SoundManager.instance.Play("Recarga");
 
     }
     private void UpdateBulletsText()

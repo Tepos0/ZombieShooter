@@ -13,7 +13,7 @@ public class UIcontroller : MonoBehaviour
         get {return _bulletsText;}
     }
 
-    private void ShowNulletsUI(bool show)
+    public void ShowABulletsUI(bool show)
     {
         _bulletsUI.SetActive(show);
     }
